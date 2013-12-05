@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#general {
+	background:url(../img/cuento_06/bg_tesoro.jpg) no-repeat center bottom 0px;
+}
+
+#tituloCuento {
+	background-image:url(../img/cuento_06/title_cuento.png);
+	top:86px;
+}
+
+#titleZoom06 {
+	background-image:url(../img/cuento_06/title_cuento.png);
+}
+
+.pagination-car {
+	/*background:#666;*/
+	width:90px;
+	margin:0px 0px 0px -45px;
+}
+
+#nave {
+	background-image:url(../img/cuento_06/nave.png);
+	
+	top:110px;
+	left:0px;
+	
+	width:597px;
+	height:495px;
+	
+	z-index:-1;
+}
+#planeta {
+	background-image:url(../img/cuento_06/planeta.png);
+	
+	top:250px;
+	left:980px;
+	
+	width:297px;
+	height:304px;
+}
+#basura {
+	background-image:url(../img/cuento_06/basura.png);
+	
+	top:90px;
+	left:1970px;
+	
+	width:305px;
+	height:549px;
+}
+#surfo {
+	background-image:url(../img/cuento_06/surfeador.png);
+	
+	top:90px;
+	left:2950px;
+	
+	width:188px;
+	height:418px;
+}
+#surfa {
+	background-image:url(../img/cuento_06/surfeadora.png);
+	
+	top:200px;
+	left:3950px;
+	
+	width:256px;
+	height:339px;
+}
+

@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*#pantalla {
+	background:#CCC;
+	width:960px;
+	height:600px;
+}*/
+
+.pagination-car {
+	/*background:#CCC;*/
+	width:40px !important;
+	margin:0px 0px 0px -20px !important;
+}
+
+#general {
+	background-image:url(../img/bg_home.jpg);
+	background-position:center bottom;
+}
+
+#titlehomeBig {
+	background:url(../img/home/home_title.png) no-repeat 0px 0px;
+	top:43px;
+	left:457px;
+	width:465px;
+	height:400px;
+}
+
+#titlehomePeq {
+	background:url(../img/home/home_title_peq.png) no-repeat 0px 0px;
+	top:20px;
+	right:10px;
+	width:148px;
+	height:116px;
+}
+
+#grupoHome {
+	background:url(../img/home/home_grupo.png) no-repeat top left;
+	top:115px;
+	left:5px;
+	width:437px;
+	height:482px;
+}
+
+.homeMagia {
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:90px;
+	height:240px;
+}
+#homeMagia1{
+	/*background-color:#999;*/
+	background-image:url(../img/home/magia_2.png);
+	top:20px;
+	left:190px;
+}
+#homeMagia2 {
+	/*background-color:#CCC;*/
+	background-image:url(../img/home/magia_1.png);
+	top:40px;
+	left:200px;
+}
+#homeMagia3 {
+	/*background-color:#999;*/
+	background-image:url(../img/home/magia_2.png);
+	top:60px;
+	left:200px;
+}
+#homeMagia4 {
+	/*background-color:#999;*/
+	background-image:url(../img/home/magia_1.png);
+	top:80px;
+	left:210px;
+}
+
+#menuHome {
+	/*background:#999;*/
+	bottom:72px;
+	right:5px;
+	width:500px;
+	height:41px;
+}
+#menuHome a {
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	margin-right:6px;
+}
+#menuHome a:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity:0.8;
+	opacity:0.8;
+}
+#menuHomeAutores {
+	background:url(../img/home/home_bt_autores.png) no-repeat top left;
+	width:86px;
+	height:32px;
+	margin-top:7px;
+}
+#menuHomeMenciones {
+	background:url(../img/home/home_bt_menciones.png) no-repeat top left;
+	width:101px;
+	height:28px;
+	margin-top:5px;
+}
+#menuHomeJurado {
+	background:url(../img/home/home_bt_jurado.png) no-repeat top left;
+	width:80px;
+	height:40px;
+}
+#menuHomeGuia {
+	background:url(../img/home/home_bt_guia.png) no-repeat top left;
+	width:123px;
+	height:37px;
+	margin-top:2px;
+}
+#menuHomeCreditos {
+	background:url(../img/home/home_bt_creditos.png) no-repeat top left;
+	width:85px;
+	height:33px;
+	margin-top:3px;
+	margin-right:0px !important;
+}
+
+.bthome {
+	/*background:#FFF;*/
+	background-position:top left;
+	background-repeat:no-repeat;
+	/*z-index:1000;*/
+}
+.bthome:hover {
+	margin-top:-10px;
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity:0.8;
+	opacity:0.8;
+}
+
+#bthome1 {
+	background-image:url(../img/home/bt_home_1.png);
+	top:38px;
+	left:45px;
+	
+	width:250px;
+	height:244px;
+}
+#bthome2 {
+	background-image:url(../img/home/bt_home_2.png);
+	top:46px;
+	left:380px;
+	
+	width:246px;
+	height:247px;
+}
+#bthome3 {
+	background-image:url(../img/home/bt_home_3.png);
+	top:23px;
+	left:680px;
+	
+	width:227px;
+	height:253px;
+}
+#bthome4 {
+	background-image:url(../img/home/bt_home_4.png);
+	top:301px;
+	left:13px;
+	
+	width:312px;
+	height:271px;
+}
+#bthome5 {
+	background-image:url(../img/home/bt_home_5.png);
+	top:295px;
+	left:380px;
+	
+	width:240px;
+	height:294px;
+}
+#bthome6 {
+	background-image:url(../img/home/bt_home_6.png);
+	top:324px;
+	left:680px;
+	
+	width:224px;
+	height:243px;
+}
+
+#docPDF {
+	/*background-image:url(../img/docPDF.png);
+	width:42px;
+	height:50px;*/
+	background-image:url(../img/docPDF_2.jpg);
+	width:71px;
+	height:60px;
+	margin:0px 15px 0px 0px;
+}
+#txLdoc {
+	/*background:#999;*/
+	width:390px;
+}
