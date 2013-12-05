@@ -201,3 +201,10 @@
 	/*background:#999;*/
 	width:390px;
 }
+
+.instruSlide {
+	background:url(../img/home/instru_slide_home.png) no-repeat top left;
+	width:118px;
+	height:110px;
+}
+

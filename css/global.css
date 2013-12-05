@@ -452,8 +452,7 @@ a {
 	background:url(../img/instru_slide_blanco.png) no-repeat top left;
 	width:118px;
 	height:93px;
-}
-#instruSlide {
+	
 	top:10px;/*30px p iPhone*/
 	right:10px;
 }
