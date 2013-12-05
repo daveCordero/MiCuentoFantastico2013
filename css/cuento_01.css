@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #general {
-	background:url(../img/cuento_01/bg_jardin.jpg) no-repeat center bottom 0px;
+	background:url(../img/cuento_01/bg_jardin.jpg) no-repeat center bottom 0px !important;
 }
 
 #tituloCuento {
