@@ -4,7 +4,7 @@
     id        = "com.librosparatodoscr.miCuentoFantastico2013Android"
     version   = "1.0.0">
 	
-<name>Mi Cuento 2013</name>
+<name>Mi Cuento Fantástico 2013</name>
 <icon src="phoneGap/Icon@2x.png" gap:platform="android" gap:density="ldpi" />
 
 <gap:splash src="phoneGap/LDPI_landscape.png"  gap:platform="android" gap:density="ldpi" />
