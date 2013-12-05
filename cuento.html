@@ -1,0 +1,2543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="David Herrera Cordero | Libros para Todos Grupo Nación" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<script language="javascript" type="text/javascript">
+//vars user agent para meta viewport scale
+var isiPhone 	   = navigator.userAgent.toLowerCase().indexOf("iphone");
+var isiPad   	   = navigator.userAgent.toLowerCase().indexOf("ipad");
+var isiPod   	   = navigator.userAgent.toLowerCase().indexOf("ipod");
+var isSafari   	   = navigator.userAgent.toLowerCase().indexOf('safari');
+var android 	   = navigator.userAgent.toLowerCase().indexOf("android");
+//fin vars user agent para meta viewport scale
+</script>
+
+<!-- apple -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="apple-touch-icon" sizes="57×57"   href="img/touch-icon-iphone-114.png" />
+<link rel="apple-touch-icon" sizes="114×114" href="img/touch-icon-iphone-114.png" />
+<link rel="apple-touch-icon" sizes="72×72"   href="img/touch-icon-ipad-144.png" />
+<link rel="apple-touch-icon" sizes="144×144" href="img/touch-icon-ipad-144.png" />
+<!-- /apple -->
+
+<title>Mi cuento fantástico 2013 | Libros para Todos | Grupo Nación | Cuento</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/cuentos.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="js/googleapis/jquery.min.js"></script>
+<script type="text/javascript" src='js/jquery.transit.min.js'></script>
+
+
+<!-- Swiper -->
+<link rel="stylesheet" href="css/idangerous.swiper.css">
+<link rel="stylesheet" href="css/swiper-cuentos.css?v=1.8">
+<script type="text/javascript" src="js/swiper/idangerous.swiper-1.8.min.js"></script>
+<script type="text/javascript" src="js/swiper/idangerous.swiper.scrollbar-1.0.js"></script>
+<script type="text/javascript" src="js/swiper/swiper-cuentos.js?v=1.8"></script>
+<!-- fin Swiper -->
+
+
+<script language="javascript" type="text/javascript">
+/*
+function playAudio() {
+	var audioElement = document.createElement('audio');
+	audioElement.setAttribute('autoplay', 'autoplay');
+	$.get();
+	
+	switch(cuento) {//selecciona css
+		
+		case '01'://
+			
+			//iOS y Safari no reconocen .ogg
+			if(isiPhone > -1) {
+				//alert('iphone 22');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPod > -1) {
+				//alert('ipod');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPad > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isSafari > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if (android > -1) {
+				//alert('android 16');
+				audioElement.setAttribute('src', 'http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg');
+			}
+			else {
+				audioElement.setAttribute('src', 'audio/cuentos/.ogg');
+			}
+			//fin iOS y Safari no reconocen .ogg
+			
+		break;
+		
+		case '02'://
+			
+			//iOS y Safari no reconocen .ogg
+			if(isiPhone > -1) {
+				//alert('iphone 22');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPod > -1) {
+				//alert('ipod');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPad > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isSafari > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if (android > -1) {
+				//alert('android 16');
+				audioElement.setAttribute('src', 'http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg');
+			}
+			else {
+				audioElement.setAttribute('src', 'audio/cuentos/.ogg');
+			}
+			//fin iOS y Safari no reconocen .ogg
+			
+		break;
+		
+		case '03'://
+			
+			//iOS y Safari no reconocen .ogg
+			if(isiPhone > -1) {
+				//alert('iphone 22');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPod > -1) {
+				//alert('ipod');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPad > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isSafari > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if (android > -1) {
+				//alert('android 16');
+				audioElement.setAttribute('src', 'http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg');
+			}
+			else {
+				audioElement.setAttribute('src', 'audio/cuentos/.ogg');
+			}
+			//fin iOS y Safari no reconocen .ogg
+			
+		break;
+		
+		case '04'://
+			
+			//iOS y Safari no reconocen .ogg
+			if(isiPhone > -1) {
+				//alert('iphone 22');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPod > -1) {
+				//alert('ipod');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPad > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isSafari > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if (android > -1) {
+				//alert('android 16');
+				audioElement.setAttribute('src', 'http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg');
+			}
+			else {
+				audioElement.setAttribute('src', 'audio/cuentos/.ogg');
+			}
+			//fin iOS y Safari no reconocen .ogg
+			
+		break;
+		
+		case '05'://
+			
+			//iOS y Safari no reconocen .ogg
+			if(isiPhone > -1) {
+				//alert('iphone 22');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPod > -1) {
+				//alert('ipod');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPad > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isSafari > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if (android > -1) {
+				//alert('android 16');
+				audioElement.setAttribute('src', 'http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg');
+			}
+			else {
+				audioElement.setAttribute('src', 'audio/cuentos/.ogg');
+			}
+			//fin iOS y Safari no reconocen .ogg
+			
+		break;
+		
+		case '06'://
+			
+			//iOS y Safari no reconocen .ogg
+			if(isiPhone > -1) {
+				//alert('iphone 22');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPod > -1) {
+				//alert('ipod');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isiPad > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if(isSafari > -1) {
+				//alert('ipad');
+				audioElement.setAttribute('src', 'audio/cuentos/.mp3');
+			}
+			else if (android > -1) {
+				//alert('android 16');
+				audioElement.setAttribute('src', 'http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg');
+			}
+			else {
+				audioElement.setAttribute('src', 'audio/cuentos/.ogg');
+			}
+			//fin iOS y Safari no reconocen .ogg
+			
+		break;
+		
+	}//fin switch
+	
+	audioElement.play();
+}*/
+
+$(window).load(function(){
+	$("#pre-load-web").fadeOut(1000,function(){
+	    $(this).remove();//eliminamos la capa de precarga
+	    //$("body").css({"overflow-y":"auto"});//permitimos scroll
+	});
+});
+
+/*function nextPage(){
+	window.location.href = proxPantalla;
+}*/
+
+function transPage(){
+	//$('#contenido').transition( { y: 600 }, 200, 'out',function(){nextPage();});
+	
+	var timertransPage = setTimeout(function() {
+		window.location.href = proxPantalla;
+		clearTimeout(timertransPage);
+	}, 210);
+}
+
+var cuento = location.search.substr(1);//alert(cuento);
+
+// Listen for orientation changes
+window.addEventListener("orientationchange", function() {
+  //alert(window.orientation); //Announce the new orientation number
+  if (window.orientation == 0){
+	  $("#turnScreen").fadeIn(0);
+  }
+  /*chrome no funciona en esta orientacion
+  if (window.orientation == 180){
+	  $("#turnScreen").fadeIn(0);
+  }*/
+  if (window.orientation == 90){
+	  $("#turnScreen").fadeOut(0);
+  }
+  if (window.orientation == -90){
+	  $("#turnScreen").fadeOut(0);
+  }
+}, false);
+
+$(window).bind('orientationchange resize', function(event) {
+	var orient = window.orientation;
+	if(orient == 0) { //0 = portrait, -90 or 90 = landscape
+		window.scrollTo(0, 0);
+	} else {
+		window.scrollTo(0, 0);
+	}
+});
+
+$(document).ready(function() {
+	
+	// precarga
+	//eliminamos el scroll de la pagina
+	$("body").css({"overflow-y":"hidden"});
+	//guardamos en una variable el alto del que tiene tu browser que no es lo mismo que del DOM
+	var alto=$(window).height();
+	//agregamos en el body un div que sera que ocupe toda la pantalla y se muestra encima de todo
+	$("body").append("<div id='pre-load-web'><div id='imagen-load'><img src='img/preload35.gif' /></div>");
+	//le damos el alto
+	$("#pre-load-web").css({height:alto+"px"});
+	//esta sera la capa que esta dento de la capa que muestra un gif
+	$("#imagen-load").css({"margin-top":(alto/2)-30+"px"});
+	// fin precarga
+	
+	//alert('hola');
+	
+	//define meta viewport scale
+	if(isiPhone > -1) {
+		//alert('iphone 32');
+		$("head").append('<meta name="viewport" content="user-scalable=no, initial-scale=0.55, maximum-scale=0.55" />');
+		//window.scrollTo(0, 0);//hide url bar mobiles //no funciona al 100% en android
+		//window.scrollTo(0, 2);
+	}
+	else if(isiPod > -1) {
+		//alert('ipod');
+		$("head").append('<meta name="viewport" content="user-scalable=yes, initial-scale=0.55, maximum-scale=0.55" />');
+		window.scrollTo(0, 0);//hide url bar mobiles //no funciona al 100% en android
+	}
+	else if(isiPad > -1) {
+		//alert('ipad');
+		$("head").append('<meta name="viewport" content="height=580px, user-scalable=no, initial-scale=1.05, maximum-scale=1.05, minimum-scale=1.05" />');
+		/*$("head").append('<meta name="viewport" content="height=678px, user-scalable=no, user-scalable=no, initial-scale=1.06, maximum-scale=1.06, minimum-scale=1.06" />');*/
+		$("head").append('<style type="text/css" media="screen"> #general { height:666px; margin:-380px 0px 0px 0px; padding:80px 0px 0px 0px; } .pantallas { height:630px; } <style/>');
+	}
+	else if (android > -1) {
+		//alert('android 16');
+		
+		//$("head").append('<meta name="viewport" content="width=1200px, target-densitydpi=device-dpi" />');
+		if ( screen.width > 1100 ) {
+			//alert('mayor que 1100');
+			$("head").append('<meta name="viewport" content="initial-scale=1.1, maximum-scale=1.1, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 1100) && (screen.width >= 1000) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 1000) && (screen.width >= 900) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=.9, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 900) && (screen.width >= 800) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=.8, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 800) && (screen.width >= 700) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=.7, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 700) && (screen.width >= 600) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=.6, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 600) && (screen.width >= 500) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=.5, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 500) && (screen.width >= 400) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=.4, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		} else if ( (screen.width < 400) && (screen.width >= 300) ) {
+			$("head").append('<meta name="viewport" content="initial-scale=.3, maximum-scale=1.0, minimum-scale=.5, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+		}//if screen.width
+		//alert('screen width' + screen.width);
+		
+	}
+	else {
+		$("head").append('<meta name="viewport" content="height=600px, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />');
+		window.scrollTo(0, 0);//hide url bar mobiles //no funciona muy bien con android
+	}
+	//fin define meta viewport scale
+	
+	if (window.orientation == 0){
+		$("#turnScreen").fadeIn(0);
+	}
+	
+	//alert('cuento: ' + cuento);
+	switch(cuento) {//selecciona css / ejecuta animaciones
+		
+		case '01'://mi jardín
+			//alert('cuento: ' + cuento);
+			$('head').append('<link href="css/cuento_01.css" rel="stylesheet" type="text/css" />');
+			
+			/*araña*/
+			var araIn = setTimeout(function() {
+				$('#arana').fadeIn(500, function(){ araCloseEyes(); } );
+				clearTimeout(araIn);
+			}, 1000);
+			function araCloseEyes() {
+				var araCE = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s02.png)'});
+					//$('#arana').css({'background-position':'-321px 0px'});
+					araOpenEyes();
+					clearTimeout(araCE);
+				}, 1500);
+			}
+			function araOpenEyes() {
+				var araOE = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s01.png)'});
+					//$('#arana').css({'background-position':'0px 0px'});
+					araMoveTop1();
+					clearTimeout(araOE);
+				}, 500);
+			}
+			function araMoveTop1() {
+				var araMT1 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s03.png)','top':'185px'});
+					//$('#arana').css({'background-position':'-642px 0px'});
+					//$('#arana').css({'top':'185px'});
+					araMoveTop2();
+					clearTimeout(araMT1);
+				}, 200);
+			}
+			function araMoveTop2() {
+				var araMT2 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s01.png)','top':'170px'});
+					//$('#arana').css({'background-position':'0px 0px'});
+					//$('#arana').css({'top':'170px'});
+					araMoveTop3();
+					clearTimeout(araMT2);
+				}, 200);
+			}
+			function araMoveTop3() {
+				var araMT3 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s03.png)','top':'165px'});
+					//$('#arana').css({'background-position':'-642px 0px'});
+					araMoveRight1();
+					clearTimeout(araMT3);
+				}, 200);
+			}
+			function araMoveRight1() {
+				var araMR1 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s01.png)','left':'20px'});
+					//$('#arana').css({'background-position':'0px 0px'});
+					araMoveRight2();
+					clearTimeout(araMR1);
+				}, 1000);
+			}
+			function araMoveRight2() {
+				var araMR2 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s03.png)','left':'35px'});
+					//$('#arana').css({'background-position':'-642px 0px'});
+					araMoveLeft1();
+					clearTimeout(araMR2);
+				}, 300);
+			}
+			function araMoveLeft1() {
+				var araML1 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s01.png)','left':'30px'});
+					//$('#arana').css({'background-position':'0px 0px'});
+					araMoveLeft2();
+					clearTimeout(araML1);
+				}, 2500);
+			}
+			function araMoveLeft2() {
+				var araML2 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s03.png)','left':'20px'});
+					//$('#arana').css({'background-position':'-642px 0px'});
+					araMoveLeft3();
+					clearTimeout(araML2);
+				}, 100);
+			}
+			function araMoveLeft3() {
+				var araML3 = setTimeout(function() {
+					$('#arana').css({'background-v':'url(img/cuento_01/ara_s01.png)','left':'15px'});
+					//$('#arana').css({'background-position':'0px 0px'});
+					araMoveLeft4();
+					clearTimeout(araML3);
+				}, 100);
+			}
+			function araMoveLeft4() {
+				var araML4 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s03.png)','left':'10px'});
+					//$('#arana').css({'background-position':'-642px 0px'});
+					araMoveBot1();
+					clearTimeout(araML4);
+				}, 2000);
+			}
+			function araMoveBot1() {
+				var araMB1 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s01.png)','top':'175px','left':'0px'});
+					//$('#arana').css({'background-position':'0px 0px'});
+					araMoveBot2();
+					clearTimeout(araMB1);
+				}, 100);
+			}
+			function araMoveBot2() {
+				var araMB2 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s03.png)','top':'185px'});
+					//$('#arana').css({'background-position':'-642px 0px'});
+					araMoveBot3();
+					clearTimeout(araMB2);
+				}, 100);
+			}
+			function araMoveBot3() {
+				var araMB3 = setTimeout(function() {
+					$('#arana').css({'background-image':'url(img/cuento_01/ara_s01.png)','top':'200px'});
+					//$('#arana').css({'background-position':'0px 0px'});
+					araStartAgain();
+					clearTimeout(araMB3);
+				}, 100);
+			}
+			function araStartAgain() {
+				var araSA = setTimeout(function() {
+					araCloseEyes();
+					clearTimeout(araSA);
+				}, 1000);
+			}
+			/*fin araña*/
+			
+			/*capullo*/
+			var capuIn = setTimeout(function() {
+				$('#capullo').fadeIn(1000, function(){ capuCloseMouth1(); } );
+				clearTimeout(capuIn);
+			}, 1500);
+			function capuCloseMouth1() {
+				var capuCM1 = setTimeout(function() {
+					//$('#capullo').css({'background-image':'url(img/cuento_01/capullo_s02.png)'});
+					$('#capullo').css({'background-position':'-302px 0px'});
+					capuOpenMouth1();
+					clearTimeout(capuCM1);
+				}, 200);
+			}
+			function capuOpenMouth1() {
+				var capuOM1 = setTimeout(function() {
+					//$('#capullo').css({'background-image':'url(img/cuento_01/capullo_s01.png)'});
+					$('#capullo').css({'background-position':'0px 0px'});
+					capuCloseMouth2();
+					clearTimeout(capuOM1);
+				}, 200);
+			}
+			
+			function capuCloseMouth2() {
+				var capuCM2 = setTimeout(function() {
+					//$('#capullo').css({'background-image':'url(img/cuento_01/capullo_s02.png)'});
+					$('#capullo').css({'background-position':'-302px 0px'});
+					capuOpenMouth2();
+					clearTimeout(capuCM2);
+				}, 200);
+			}
+			function capuOpenMouth2() {
+				var capuOM2 = setTimeout(function() {
+					//$('#capullo').css({'background-image':'url(img/cuento_01/capullo_s01.png)'});
+					$('#capullo').css({'background-position':'0px 0px'});
+					capuRota1();
+					clearTimeout(capuOM2);
+				}, 200);
+			}
+			
+			function capuRota1() {
+				var capuRT1 = setTimeout(function() {
+					$("#capullo").css({ transformOrigin: '56px 0px' });
+					$("#capullo").transition({ rotate: '-10deg' });
+					capuRota2();
+					clearTimeout(capuRT1);
+				}, 500);
+			}
+			function capuRota2() {
+				var capuRT2 = setTimeout(function() {
+					$("#capullo").css({ transformOrigin: '56px 0px' });
+					$("#capullo").transition({ rotate: '20deg' });
+					capuRota3();
+					clearTimeout(capuRT2);
+				}, 100);
+			}
+			function capuRota3() {
+				var capuRT3 = setTimeout(function() {
+					$("#capullo").css({ transformOrigin: '56px 0px' });
+					$("#capullo").transition({ rotate: '0deg' });
+					capuShake1();
+					clearTimeout(capuRT3);
+				}, 500);
+			}
+			function capuShake1() {
+				var capuShk1 = setTimeout(function() {
+					$('#capullo').animate({'left':'1025px'}, 50);
+					capuShake2();
+					clearTimeout(capuShk1);
+				}, 1000);
+			}
+			function capuShake2() {
+				var capuShk2 = setTimeout(function() {
+					$('#capullo').animate({'left':'1030px'}, 10);
+					capuShake3();
+					clearTimeout(capuShk2);
+				}, 50);
+			}
+			function capuShake3() {
+				var capuShk3 = setTimeout(function() {
+					$('#capullo').animate({'left':'1025px'}, 20);
+					capuShake4();
+					clearTimeout(capuShk3);
+				}, 50);
+			}
+			function capuShake4() {
+				var capuShk4 = setTimeout(function() {
+					$('#capullo').animate({'left':'1030px'}, 10);
+					capuStartAgain();
+					clearTimeout(capuShk4);
+				}, 50);
+			}
+			function capuStartAgain() {
+				var capuSA = setTimeout(function() {
+					capuCloseMouth1();
+					clearTimeout(capuSA);
+				}, 2000);
+			}
+			/*fin capullo*/
+			
+			/*marikita1*/
+			var marikita1In = setTimeout(function() {
+				$('#marikita1').fadeIn(1000, function(){ marik1Top1(); } );
+				clearTimeout(marikita1In);
+			}, 2000);
+			function marik1Top1() {
+				var marik1T1 = setTimeout(function() {
+					$('#marikita1').animate({'top':'80px'}, 500);
+					marik1Bot1();
+					clearTimeout(marik1T1);
+				}, 200);
+			}
+			function marik1Bot1() {
+				var marik1B1 = setTimeout(function() {
+					$('#marikita1').animate({'top':'180px'}, 1000);
+					notas1In();
+					clearTimeout(marik1B1);
+				}, 300);
+			}
+			function notas1In() {
+				var notas1FIn = setTimeout(function() {
+					$('#notas1').fadeIn(2000);
+					notas1Left();
+					clearTimeout(notas1FIn);
+				}, 100);
+			}
+			function notas1Left() {
+				var notas1L = setTimeout(function() {
+					$('#notas1').animate({'left':'1940px'}, 300);
+					notas1Bot();
+					clearTimeout(notas1L);
+				}, 200);
+			}
+			function notas1Bot() {
+				var notas1B = setTimeout(function() {
+					$('#notas1').animate({'top':'90px'}, 300);
+					notas1Rota1();
+					clearTimeout(notas1B);
+				}, 300);
+			}
+			function notas1Rota1() {
+				var notas1R1 = setTimeout(function() {
+					$("#notas1").transition({ rotate: '-40deg'});
+					notas1FadeOut();
+					clearTimeout(notas1R1);
+				}, 300);
+			}
+			function notas1FadeOut() {
+				var notas1FO = setTimeout(function() {
+					$('#notas1').fadeOut(500);
+					$('#notas1').animate({'top':'70px', 'left':'1980px'}, 500);
+					$("#notas1").transition({ rotate: '0deg'});
+					notas1StartAgain();
+					clearTimeout(notas1FO);
+				}, 200);
+			}
+			function notas1StartAgain() {
+				var notas1SA = setTimeout(function() {
+					$('#marikita1').animate({'top':'120px', 'left':'2060px'}, 500);
+					marik1Top1();
+					clearTimeout(notas1SA);
+				}, 3000);
+			}
+			/*fin marikita1*/
+			
+			/*caracol*/
+			var caracolIn = setTimeout(function() {
+				$('#caracol').fadeIn(1000);
+				$('#cejas').fadeIn(1000);
+				$('#sombrero').fadeIn(1000, function(){ sombrero1(); } );
+				clearTimeout(caracolIn);
+			}, 2500);
+			function sombrero1() {
+				var som1 = setTimeout(function() {
+					$('#sombrero').animate({'top':'70px', 'left':'2980px'}, 300);
+					cejas1();
+					clearTimeout(som1);
+				}, 500);
+			}
+			function cejas1() {
+				var cj1 = setTimeout(function() {
+					$('#cejas').animate({'top':'164px', 'left':'3035px'}, 200);
+					somRota1();
+					clearTimeout(cj1);
+				}, 100);
+			}
+			function somRota1() {
+				var somR1 = setTimeout(function() {
+					$('#sombrero').transition({ rotate: '-300deg'});
+					somRota2();
+					clearTimeout(somR1);
+				}, 100);
+			}
+			function somRota2() {
+				var somR2 = setTimeout(function() {
+					$('#sombrero').transition({ rotate: '0deg'});
+					cejas2();
+					clearTimeout(somR2);
+				}, 1000);
+			}
+			function cejas2() {
+				var cj2 = setTimeout(function() {
+					$('#cejas').animate({'top':'174px', 'left':'3042px'}, 200);
+					sombrero2();
+					clearTimeout(cj2);
+				}, 500);
+			}
+			function sombrero2() {
+				var som1 = setTimeout(function() {
+					$('#sombrero').animate({'top':'90px', 'left':'2990px'}, 300);
+					cejas3();
+					clearTimeout(som1);
+				}, 200);
+			}
+			function cejas3() {
+				var cj3 = setTimeout(function() {
+					$('#cejas').animate({'top':'164px', 'left':'3035px'}, 100);
+					cejas4();
+					clearTimeout(cj3);
+				}, 1000);
+			}
+			function cejas4() {
+				var cj4 = setTimeout(function() {
+					$('#cejas').animate({'top':'174px', 'left':'3042px'}, 100);
+					cejas5();
+					clearTimeout(cj4);
+				}, 100);
+			}
+			function cejas5() {
+				var cj5 = setTimeout(function() {
+					$('#cejas').animate({'top':'164px', 'left':'3035px'}, 150);
+					cejas6();
+					clearTimeout(cj5);
+				}, 100);
+			}
+			function cejas6() {
+				var cj6 = setTimeout(function() {
+					$('#cejas').animate({'top':'174px', 'left':'3042px'}, 200);
+					sombStartAgain();
+					clearTimeout(cj6);
+				}, 100);
+			}
+			function sombStartAgain() {
+				var somSA = setTimeout(function() {
+					$('#sombrero').animate({'top':'90px', 'left':'2990px'}, 300);
+					sombrero1();
+					clearTimeout(somSA);
+				}, 3000);
+			}
+			/*fin caracol*/
+			
+			/*marikita2*/
+			var marik2In = setTimeout(function() {
+				$('#marikita2').fadeIn(1000, function(){ marik2Bot1(); });
+				clearTimeout(marik2In);
+			}, 3000);
+			function marik2Bot1() {
+				var marik2B1 = setTimeout(function() {
+					$('#marikita2').animate({'top':'160px'}, 500);
+					marik2Top1();
+					clearTimeout(marik2B1);
+				}, 300);
+			}
+			function marik2Top1() {
+				var marik2T1 = setTimeout(function() {
+					$('#marikita2').animate({'top':'100px','left':'3920px'}, 800);
+					marik2Bot2();
+					clearTimeout(marik2T1);
+				}, 100);
+			}
+			function marik2Bot2() {
+				var marik2B2 = setTimeout(function() {
+					$('#marikita2').animate({'top':'180px','left':'3910px'}, 1500);
+					marik2Top2();
+					clearTimeout(marik2B2);
+				}, 500);
+			}
+			function marik2Top2() {
+				var marik2T2 = setTimeout(function() {
+					$('#marikita2').animate({'top':'90px','left':'3920px'}, 1000);
+					marik2Bot3();
+					clearTimeout(marik2T2);
+				}, 100);
+			}
+			function marik2Bot3() {
+				var marik2B3 = setTimeout(function() {
+					$('#marikita2').animate({'top':'140px'}, 1500);
+					marik2Top3();
+					clearTimeout(marik2B3);
+				}, 500);
+			}
+			function marik2Top3() {
+				var marik2T3 = setTimeout(function() {
+					$('#marikita2').animate({'top':'100px'}, 1000);
+					marik2Bot4();
+					//marik2Bot1();
+					clearTimeout(marik2T3);
+				}, 100);
+			}
+			function marik2Bot4() {
+				var marik2B4 = setTimeout(function() {
+					$('#marikita2').animate({'top':'120px','left':'3940px'}, 300);
+					marik2Bot1();
+					clearTimeout(marik2B4);
+				}, 1000);
+			}
+			/*fin marikita2*/
+			
+			/*mariposa1*/
+			var maripoIn = setTimeout(function() {
+				$('#mariposa1').fadeIn(1000, function(){ maripo1Bot1(); });
+				clearTimeout(maripoIn);
+			}, 3500);
+			function maripo1Bot1() {
+				var maripo1B1 = setTimeout(function() {
+					$('#mariposa1').animate({'top':'160px'}, 500);
+					maripo1Rota1();
+					clearTimeout(maripo1B1);
+				}, 300);
+			}
+			function maripo1Rota1() {
+				var maripo1R1 = setTimeout(function() {
+					$('#mariposa1').transition({ rotate: '350deg'});
+					$('#mariposa1').transition({ scale: 0.5 });
+					maripo1Bot2();
+					clearTimeout(maripo1R1);
+				}, 300);
+			}
+			function maripo1Bot2() {
+				var maripo1B2 = setTimeout(function() {
+					$('#mariposa1').animate({'top':'240px','left':'4890px'}, 1000);
+					maripo1Top1();
+					clearTimeout(maripo1B2);
+				}, 300);
+			}
+			function maripo1Top1() {
+				var maripo1T1 = setTimeout(function() {
+					$('#mariposa1').animate({'top':'100px','left':'4840px'}, 2000);
+					$('#mariposa1').transition({ rotate: '0deg'});
+					$('#mariposa1').transition({ scale: 1 });
+					maripo1StartAgain();
+					clearTimeout(maripo1T1);
+				}, 300);
+			}
+			function maripo1StartAgain() {
+				var maripo1SA = setTimeout(function() {
+					maripo1Bot1();
+					clearTimeout(maripo1SA);
+				}, 7000);
+			}
+			/*fin mariposa1*/
+			
+			/*flor*/
+			var flor1In = setTimeout(function() {
+				$('#flor1').fadeIn(1000, function(){ flor1Rota1(); });
+				clearTimeout(flor1);
+			}, 4000);
+			function flor1Rota1() {
+				var flor1R1 = setTimeout(function() {
+					$("#flor1").css({ transformOrigin: '144px 580px' });
+					$('#flor1').transition({ rotate: '5deg'}, 2000);
+					flor1Rota2();
+					clearTimeout(flor1R1);
+				}, 1000);
+			}
+			function flor1Rota2() {
+				var flor1R2 = setTimeout(function() {
+					$("#flor1").css({ transformOrigin: '144px 580px' });
+					$('#flor1').transition({ rotate: '-3deg'}, 3000);
+					flor1Rota3();
+					clearTimeout(flor1R2);
+				}, 300);
+			}
+			function flor1Rota3() {
+				var flor1R3 = setTimeout(function() {
+					$("#flor1").css({ transformOrigin: '144px 580px' });
+					$('#flor1').transition({ rotate: '0deg'}, 2000);
+					flor1StartAgain();
+					clearTimeout(flor1R3);
+				}, 500);
+			}
+			function flor1StartAgain() {
+				var flor1SA = setTimeout(function() {
+					flor1Rota1();
+					clearTimeout(flor1SA);
+				}, 8000);
+			}
+			/*fin flor*/
+		break;
+		
+		case '02'://jairo
+			$('head').append('<link href="css/cuento_02.css" rel="stylesheet" type="text/css" />');
+			
+			/*jairo1*/
+			var jairo1In = setTimeout(function() {
+				$('#jairo1').fadeIn(1000, function(){ jairo1Tenaza1(); });
+				clearTimeout(jairo1In);
+			}, 500);
+			function jairo1Tenaza1() {
+				var jaiT1 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s03.png)'});
+					jairo1Tenaza2();
+					clearTimeout(jaiT1);
+				}, 300);
+			}
+			function jairo1Tenaza2() {
+				var jaiT2 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s01.png)'});
+					jairo1Bot1();
+					clearTimeout(jaiT2);
+				}, 300);
+			}
+			function jairo1Bot1() {
+				var jaiB1 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s02.png)','top':'90px'});
+					jairo1Bot2();
+					clearTimeout(jaiB1);
+				}, 1000);
+			}
+			function jairo1Bot2() {
+				var jaiB2 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s01.png)','top':'100px','left':'65px'});
+					jairo1Bot3();
+					clearTimeout(jaiB2);
+				}, 100);
+			}
+			function jairo1Bot3() {
+				var jaiB3 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s02.png)','top':'110px'});
+					jairo1Bot4();
+					clearTimeout(jaiB3);
+				}, 100);
+			}
+			function jairo1Bot3() {
+				var jaiB4 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s01.png)','top':'115px'});
+					jairo1Top1();
+					clearTimeout(jaiB4);
+				}, 200);
+			}
+			function jairo1Top1() {
+				var jaiT1 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s02.png)','top':'110px','left':'60px'});
+					jairo1Top2();
+					clearTimeout(jaiT1);
+				}, 2000);
+			}
+			function jairo1Top2() {
+				var jaiT2 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s01.png)','top':'100px','left':'70px'});
+					jairo1Top3();
+					clearTimeout(jaiT2);
+				}, 300);
+			}
+			function jairo1Top3() {
+				var jaiT3 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s02.png)','top':'90px'});
+					jairo1Top4();
+					clearTimeout(jaiT3);
+				}, 300);
+			}
+			function jairo1Top4() {
+				var jaiT4 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s01.png)','top':'80px'});
+					jairo1Top5();
+					clearTimeout(jaiT4);
+				}, 200);
+			}
+			function jairo1Top5() {
+				var jaiT5 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s03.png)','top':'75px','left':'60px'});
+					jairo1Top6();
+					clearTimeout(jaiT5);
+				}, 300);
+			}
+			function jairo1Top6() {
+				var jaiT6 = setTimeout(function() {
+					$('#jairo1').css({'background-image':'url(img/cuento_02/jairo1_s01.png)'});
+					jairo1StartAgain();
+					clearTimeout(jaiT6);
+				}, 500);
+			}
+			function jairo1StartAgain() {
+				var jaiSA = setTimeout(function() {
+					jairo1Tenaza1();
+					clearTimeout(jaiSA);
+				}, 3000);
+			}
+			/*fin jairo1*/
+			
+			/*tortu*/
+			var tortu1In = setTimeout(function() {
+				$('#tortu1').fadeIn(1000, function(){ tortu1Eyes1(); });
+				clearTimeout(tortu1In);
+			}, 500);
+			function tortu1Eyes1() {
+				var tortu1E1 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'-354px 0px'});
+					tortu1Eyes2();
+					clearTimeout(tortu1E1);
+				}, 500);
+			}
+			function tortu1Eyes2() {
+				var tortu1E2 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'0px 0px'});
+					tortu1Eyes3();
+					clearTimeout(tortu1E2);
+				}, 200);
+			}
+			function tortu1Eyes3() {
+				var tortu1E3 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'-354px 0px'});
+					tortu1Eyes4();
+					clearTimeout(tortu1E3);
+				}, 100);
+			}
+			function tortu1Eyes4() {
+				var tortu1E4 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'0px 0px'});
+					tortu1Bot1();
+					clearTimeout(tortu1E4);
+				}, 200);
+			}
+			function tortu1Bot1() {
+				var tortu1B1 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'-354px 0px'});
+					$('#tortu1').animate({'top':'290px'}, 300);
+					tortu1Eyes5();
+					clearTimeout(tortu1B1);
+				}, 1000);
+			}
+			function tortu1Eyes5() {
+				var tortu1E5 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'0px 0px'});
+					tortu1Eyes6();
+					clearTimeout(tortu1E5);
+				}, 200);
+			}
+			function tortu1Eyes6() {
+				var tortu1E6 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'-354px 0px'});
+					tortu1Top1();
+					clearTimeout(tortu1E6);
+				}, 200);
+			}
+			function tortu1Top1() {
+				var tortu1T1 = setTimeout(function() {
+					$('#tortu1').css({'background-position':'0px 0px'});
+					$('#tortu1').animate({'top':'280px'}, 300);
+					tortu1Right1();
+					clearTimeout(tortu1T1);
+				}, 2000);
+			}
+			function tortu1Right1() {
+				var tortu1R1 = setTimeout(function() {
+					$('#tortu1').animate({'left':'970px'}, 300);
+					tortu1Left1();
+					clearTimeout(tortu1R1);
+				}, 100);
+			}
+			function tortu1Left1() {
+				var tortu1L1 = setTimeout(function() {
+					$('#tortu1').animate({'left':'960px'}, 300);
+					tortu1StartAgain();
+					clearTimeout(tortu1L1);
+				}, 
+				300);
+			}
+			function tortu1StartAgain() {
+				var tortu1SA = setTimeout(function() {
+					tortu1Eyes1();
+					clearTimeout(tortu1SA);
+				}, 3000);
+			}
+			/*fin tortu*/
+			
+			/*huevos*/
+			var huevosIn = setTimeout(function() {
+				$('#huevos').fadeIn(1000, function(){ huevitos1(); });
+				clearTimeout(huevosIn);
+			}, 1500);
+			function huevitos1() {
+				var hue1 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-490px 0px'});
+					huevitos2();
+					clearTimeout(hue1);
+				}, 1000);
+			}
+			function huevitos2() {
+				var hue2 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-980px 0px'});
+					huevitos3();
+					clearTimeout(hue2);
+				}, 200);
+			}
+			function huevitos3() {
+				var hue3 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-490px 0px'});
+					huevitos4();
+					clearTimeout(hue3);
+				}, 200);
+			}
+			function huevitos4() {
+				var hue4 = setTimeout(function() {
+					$('#huevos').css({'background-position':'0px 0px'});
+					huevitos5();
+					clearTimeout(hue4);
+				}, 200);
+			}
+			function huevitos5() {
+				var hue5 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-1470px 0px'});
+					huevitos6();
+					clearTimeout(hue5);
+				}, 200);
+			}
+			function huevitos6() {
+				var hue6 = setTimeout(function() {
+					$('#huevos').css({'background-position':'0px 0px'});
+					huevitos7();
+					clearTimeout(hue6);
+				}, 200);
+			}
+			function huevitos7() {
+				var hue7 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-1960px 0px'});
+					huevitos8();
+					clearTimeout(hue7);
+				}, 1500);
+			}
+			function huevitos8() {
+				var hue8 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-2450px 0px'});
+					huevitos9();
+					clearTimeout(hue8);
+				}, 200);
+			}
+			function huevitos9() {
+				var hue9 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-2940px 0px'});
+					huevitos10();
+					clearTimeout(hue9);
+				}, 200);
+			}
+			function huevitos10() {
+				var hue10 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-2450px 0px'});
+					huevitos11();
+					clearTimeout(hue10);
+				}, 200);
+			}
+			function huevitos11() {
+				var hue11 = setTimeout(function() {
+					$('#huevos').css({'background-position':'-1960px 0px'});
+					huevitos12();
+					clearTimeout(hue11);
+				}, 200);
+			}
+			function huevitos12() {
+				var hue12 = setTimeout(function() {
+					$('#huevos').css({'background-position':'0px 0px'});
+					huevitosStartAgain();
+					clearTimeout(hue12);
+				}, 200);
+			}
+			function huevitosStartAgain() {
+				var hueSA = setTimeout(function() {
+					huevitos1();
+					clearTimeout(hueSA);
+				}, 2000);
+			}
+			/*fin huevos*/
+			
+			/*zorro*/
+			var zorroIn = setTimeout(function() {
+				$('#zorro').fadeIn(1000, function(){ zorroJairo1(); });
+				clearTimeout(zorroIn);
+			}, 2400);
+			function zorroJairo1() {
+				var zor1 = setTimeout(function() {
+					$('#zorro').css({'background-position':'-392px 0px'});
+					zorroJairo2();
+					clearTimeout(zor1);
+				}, 1000);
+			}
+			function zorroJairo2() {
+				var zor2 = setTimeout(function() {
+					$('#zorro').css({'background-position':'-784px 0px'});
+					zorroJairo3();
+					clearTimeout(zor2);
+				}, 300);
+			}
+			function zorroJairo3() {
+				var zor3 = setTimeout(function() {
+					$('#zorro').css({'background-position':'-392px 0px'});
+					zorroJairo4();
+					clearTimeout(zor3);
+				}, 200);
+			}
+			function zorroJairo4() {
+				var zor4 = setTimeout(function() {
+					$('#zorro').css({'background-position':'0px 0px'});
+					zorroJairoSatratAgain();
+					clearTimeout(zor4);
+				}, 300);
+			}
+			function zorroJairoSatratAgain() {
+				var zorSA = setTimeout(function() {
+					zorroJairo1();
+					clearTimeout(zorSA);
+				}, 1500);
+			}
+			/*fin zorro*/
+			
+			/*jairoTortu*/
+			var jaiTorIn = setTimeout(function() {
+				$('#jairoTortu').fadeIn(1000, function(){ jaiTor1(); });
+				clearTimeout(jaiTorIn);
+			}, 2400);
+			function jaiTor1() {
+				var jaiT1 = setTimeout(function() {
+					$('#jairoTortu').css({'background-position':'-363px 0px'});
+					jaiTor2();
+					clearTimeout(jaiT1);
+				}, 1000);
+			}
+			function jaiTor2() {
+				var jaiT2 = setTimeout(function() {
+					$('#jairoTortu').css({'background-position':'-0px 0px'});
+					jaiTor3();
+					clearTimeout(jaiT2);
+				}, 200);
+			}
+			function jaiTor3() {
+				var jaiT3 = setTimeout(function() {
+					$('#jairoTortu').css({'background-position':'-363px 0px'});
+					jaiTorStartAgain();
+					clearTimeout(jaiT3);
+				}, 300);
+			}
+			function jaiTorStartAgain() {
+				var jaiSA = setTimeout(function() {
+					$('#jairoTortu').css({'background-position':'0px 0px'});
+					jaiTor1();
+					clearTimeout(jaiSA);
+				}, 2000);
+			}
+			/*fin jairoTortu*/
+		break;
+		
+		case '03'://musica
+			$('head').append('<link href="css/cuento_03.css" rel="stylesheet" type="text/css" />');
+			
+			/*bru*/
+			var bruIn = setTimeout(function() {
+				$('#bruja').fadeIn(1000, function(){ bruja1(); });
+				magia1In();
+				clearTimeout(bruIn);
+			}, 500);
+			function bruja1() {
+				var bru1 = setTimeout(function() {
+					$('#bruja').css({'background-position':'-364px 0px'});
+					bruja2();
+					clearTimeout(bru1);
+				},400);
+			}
+			function bruja2() {
+				var bru2 = setTimeout(function() {
+					$('#bruja').css({'background-position':'-728px 0px'});
+					bruja3();
+					clearTimeout(bru2);
+				},400);
+			}
+			function bruja3() {
+				var bru3 = setTimeout(function() {
+					$('#bruja').css({'background-position':'-364px 0px'});
+					bruja4();
+					clearTimeout(bru3);
+				},400);
+			}
+			function bruja4() {
+				var bru4 = setTimeout(function() {
+					$('#bruja').css({'background-position':'0px 0px'});
+					bruja1();
+					clearTimeout(bru4);
+				},400);
+			}
+			function magia1In() {
+				var mag1In = setTimeout(function() {
+					$('#magia1').fadeIn(500);
+					magia1Top();
+					clearTimeout(mag1In);
+				},400);
+			}
+			function magia1Top() {
+				var mag1T = setTimeout(function() {
+					$('#magia1').animate({'top':'-30px'}, 2000);
+					magia1FadeOut();
+					clearTimeout(mag1T);
+				},50);
+			}
+			function magia1FadeOut() {
+				var mag1FO = setTimeout(function() {
+					$('#magia1').fadeOut(500);
+					$('#magia1').animate({'top':'30px'}, 10);
+					magia2In();
+					clearTimeout(mag1FO);
+				},50);
+			}
+			function magia2In() {
+				var mag2In = setTimeout(function() {
+					$('#magia2').fadeIn(1000);
+					magia2Top();
+					clearTimeout(mag2In);
+				},1500);
+			}
+			function magia2Top() {
+				var mag2T = setTimeout(function() {
+					$('#magia2').animate({'top':'-30px'}, 1500);
+					magia2FadeOut();
+					clearTimeout(mag2T);
+				},1800);
+			}
+			function magia2FadeOut() {
+				var mag2FO = setTimeout(function() {
+					$('#magia2').fadeOut(500);
+					$('#magia2').animate({'top':'20px'}, 10);
+					magia1In();
+					clearTimeout(mag2FO);
+				},1000);
+			}
+			/*fin bru*/
+			
+			/*buitre*/
+			var buitIn = setTimeout(function() {
+				$('#buitre').fadeIn(500, function(){ crowIn(); });
+				clearTimeout(buitIn);
+			}, 1500);
+			function crowIn() {
+				var crowFadeIn1 = setTimeout(function() {
+					$('#crow').fadeIn(500);
+					buitre1();
+					crow1();
+					clearTimeout(crowFadeIn);
+				}, 300);
+			}
+			function buitre1() {
+				var bui1 = setTimeout(function() {
+					$('#buitre').animate({'top':'120px'}, 1000);
+					buitre2();
+					clearTimeout(bui1);
+				}, 500);
+			}
+			function crow1() {
+				var crow1 = setTimeout(function() {
+					$('#crow').animate({'top':'350px'}, 700);
+					crow2();
+					clearTimeout(crow1);
+				}, 500);
+			}
+			function buitre2() {
+				var bui2 = setTimeout(function() {
+					$('#buitre').animate({'top':'90px'}, 1000);
+					buitre3();
+					clearTimeout(bui2);
+				}, 500);
+			}
+			function crow2() {
+				var crow2 = setTimeout(function() {
+					$('#crow').animate({'top':'320px'}, 800);
+					crow3();
+					clearTimeout(crow2);
+				}, 500);
+			}
+			function buitre3() {
+				var bui3 = setTimeout(function() {
+					$('#buitre').animate({'top':'140px'}, 1000);
+					buitreStartAgain();
+					clearTimeout(bui3);
+				}, 500);
+			}
+			function crow3() {
+				var crow3 = setTimeout(function() {
+					$('#crow').animate({'top':'370px'}, 700);
+					crowStartAgain();
+					clearTimeout(crow3);
+				}, 200);
+			}
+			function buitreStartAgain() {
+				var buiSA = setTimeout(function() {
+					//alert('buiSA');
+					buitre1();
+					clearTimeout(buiSA);
+				}, 100);
+			}
+			function crowStartAgain() {
+				var crowSA = setTimeout(function() {
+					//alert('crowSA');
+					crow1();
+					clearTimeout(crowSA);
+				}, 100);
+			}
+			/*fin buitre*/
+			
+			/*zipper*/
+			var zipIn = setTimeout(function() {
+				$('#zipper').fadeIn(1000, function(){ zipper1(); });
+				clearTimeout(zipIn);
+			}, 1800);
+			function zipper1() {
+				var zip1 = setTimeout(function() {
+					$('#zipper').css({'background-position':'-160px 0px'});
+					zipper2();
+					clearTimeout(zip1);
+				}, 500);
+			}
+			function zipper2() {
+				var zip2 = setTimeout(function() {
+					$('#zipper').css({'background-position':'-320px 0px'});
+					zipper3();
+					clearTimeout(zip2);
+				}, 500);
+			}
+			function zipper3() {
+				var zip3 = setTimeout(function() {
+					$('#zipper').css({'background-position':'-160px 0px'});
+					zipper4();
+					clearTimeout(zip3);
+				}, 500);
+			}
+			function zipper4() {
+				var zip4 = setTimeout(function() {
+					$('#zipper').css({'background-position':'0px 0px'});
+					zipper1();
+					clearTimeout(zip4);
+				}, 500);
+			}
+			/*fin zipper*/
+			
+			/*cantor*/
+			var cantorIn = setTimeout(function() {
+				$('#cantor').fadeIn(1000, function(){ cantorRota1(); });
+				clearTimeout(cantorIn);
+			}, 1800);
+			function cantorRota1() {
+				var canR1 = setTimeout(function() {
+					$('#cantor').transition({ rotate: '-3deg' });
+					cantorRota2();
+					clearTimeout(canR1);
+				}, 1000);
+			}
+			function cantorRota2() {
+				var canR2 = setTimeout(function() {
+					$('#cantor').transition({ rotate: '0deg' });
+					cantorRota3();
+					clearTimeout(canR2);
+				}, 200);
+			}
+			function cantorRota3() {
+				var canR3 = setTimeout(function() {
+					$('#cantor').transition({ rotate: '3deg' });
+					cantorRota4();
+					clearTimeout(canR3);
+				}, 200);
+			}
+			function cantorRota4() {
+				var canR4 = setTimeout(function() {
+					$('#cantor').transition({ rotate: '0deg' });
+					notas2In();
+					clearTimeout(canR4);
+				}, 200);
+			}
+			function notas2In() {
+				var not2In = setTimeout(function() {
+					$('#notas2').fadeIn(500);
+					notas2Top1();
+					clearTimeout(not2In);
+				}, 200);
+			}
+			function notas2Top1() {
+				var not2T1 = setTimeout(function() {
+					$('#notas2').animate({'top':'180px','left':'2940px'}, 1500);
+					$('#notas2').transition({ rotate: '150deg' });
+					notas2Top2();
+					clearTimeout(not2T1);
+				}, 200);
+			}
+			function notas2Top2() {
+				var not2T2 = setTimeout(function() {
+					$('#notas2').animate({'top':'120px','left':'3000px'}, 1500);
+					notas2Rota1();
+					clearTimeout(not2T2);
+				}, 200);
+			}
+			function notas2Rota1() {
+				var not2R1 = setTimeout(function() {
+					$('#notas2').transition({ rotate: '0deg' });
+					$('#notas2').fadeOut(500);
+					canNotStartAgain();
+					clearTimeout(not2R1);
+				}, 500);
+			}
+			function canNotStartAgain() {
+				var not2SA = setTimeout(function() {
+					$('#notas2').animate({'top':'220px','left':'2980px'}, 1500);
+					cantorRota1();
+					clearTimeout(not2SA);
+				}, 1000);
+			}
+			/*fin cantor*/
+		break;
+		
+		case '04'://mariposas
+			$('head').append('<link href="css/cuento_04.css" rel="stylesheet" type="text/css" />');
+			
+			/*madre*/
+			var mamaIn = setTimeout(function() {
+				$('#mama').fadeIn(1000, function(){ mama1(); });
+				clearTimeout(mamaIn);
+			}, 1000);
+			function mama1() {
+				var mam1 = setTimeout(function() {
+					$('#mama').css({'background-position':'-328px 0px'});
+					$('#mama').animate({'left':'3px'}, 300);
+					mama2();
+					clearTimeout(mam1);
+				}, 300);
+			}
+			function mama2() {
+				var mam2 = setTimeout(function() {
+					$('#mama').css({'background-position':'-656px 0px'});
+					$('#mama').animate({'left':'0px'}, 300);
+					mama3();
+					clearTimeout(mam2);
+				}, 500);
+			}
+			function mama3() {
+				var mam3 = setTimeout(function() {
+					$('#mama').css({'background-position':'0px 0px'});
+					mama1();
+					clearTimeout(mam3);
+				}, 2000);
+			}
+			/*fin madre*/
+			
+			/*nico*/
+			var nicoIn = setTimeout(function() {
+				$('#nico').fadeIn(1000, function(){ nicoTop1(); });
+				clearTimeout(nicoIn);
+			}, 1800);
+			function nicoTop1() {
+				var nic1 = setTimeout(function() {
+					$('#nico').animate({'top':'70px'}, 2000);
+					$('#nico').transition({ rotate: '-300deg' }, 2000);
+					nicoRota1();
+					clearTimeout(nic1);
+				}, 300);
+			}
+			function nicoRota1() {
+				var nicR1 = setTimeout(function() {
+					$('#nico').transition({ rotate: '20deg' }, 3000);
+					$('#nico').animate({'top':'150px'}, 1000);
+					nicoRota2();
+					clearTimeout(nicR1);
+				}, 300);
+			}
+			function nicoRota2() {
+				var nicR2 = setTimeout(function() {
+					$('#nico').transition({ rotate: '0deg' }, 1000);
+					$('#nico').transition({ scale: 0.7 }, 500);
+					$('#nico').transition({ rotate: '-30deg' }, 2000);
+					$('#nico').animate({'left':'990px'}, 1000);
+					nicoLeft1();
+					clearTimeout(nicR2);
+				}, 300);
+			}
+			function nicoLeft1() {
+				var nicL1 = setTimeout(function() {
+					$('#nico').animate({'top':'40px'}, 2000);
+					nicoRight1();
+					clearTimeout(nicL1);
+				}, 300);
+			}
+			function nicoRight1() {
+				var nicR1 = setTimeout(function() {
+					$('#nico').animate({'top':'-20px', 'left':'1090px'}, 1000);
+					nicoFadeOut();
+					clearTimeout(nicR1);
+				}, 300);
+			}
+			function nicoFadeOut() {
+				var nicFO = setTimeout(function() {
+					$('#nico').fadeOut(500);
+					nicoStartAgain();
+					clearTimeout(nicFO);
+				}, 300);
+			}
+			function nicoStartAgain() {
+				var nicSA = setTimeout(function() {
+					$('#nico').animate({'top':'140px', 'left':'1050px'}, 10);
+					$('#nico').transition({ scale: 1.0 }, 10);
+					$('#nico').fadeIn(1000);
+					nicoTop1();
+					clearTimeout(nicSA);
+				}, 7000);
+			}
+			/*fin nico*/
+			
+			/*caro Grande*/
+			var caroIn = setTimeout(function() {
+				$('#caroGde').fadeIn(1000, function(){ caroGde1(); });
+				clearTimeout(caroIn);
+			}, 2200);
+			function caroGde1() {
+				var caroG1 = setTimeout(function() {
+					$('#caroGde').css({'background-position':'-340px 0px'});
+					caroGde2();
+					clearTimeout(caroG1);
+				}, 300);
+			}
+			function caroGde2() {
+				var caroG2 = setTimeout(function() {
+					$('#caroGde').css({'background-position':'0px 0px'});
+					caroGde1();
+					clearTimeout(caroG2);
+				}, 500);
+			}
+			/*fin caro Grande*/
+			
+			/*mariposa2*/
+			var mari2In = setTimeout(function() {
+				$('#mariposa2').fadeIn(1000, function(){ mari2Alas1(); });
+				mari2Top1();
+				clearTimeout(mari2In);
+			}, 2500);
+			function mari2Alas1() {
+				var mari2A1 = setTimeout(function() {
+					$('#mariposa2').css({'background-position':'-337px 0px'});
+					mari2Alas2();
+					clearTimeout(mari2A1);
+				}, 200);
+			}
+			function mari2Alas2() {
+				var mari2A2 = setTimeout(function() {
+					$('#mariposa2').css({'background-position':'0px 0px'});
+					mari2Alas1();
+					clearTimeout(mari2A2);
+				}, 200);
+			}
+			function mari2Top1() {
+				var mari2T1 = setTimeout(function() {
+					$('#mariposa2').animate({'top':'70px'}, 2000);
+					$('#mariposa2').transition({ scale: 0.7 }, 1000);
+					$('#mariposa2').transition({ rotate: '-60deg' }, 1000);
+					$('#mariposa2').transition({ scale: 0.4 }, 800);
+					mari2Left1();
+					clearTimeout(mari2T1);
+				}, 300);
+			}
+			function mari2Left1() {
+				var mari2L1 = setTimeout(function() {
+					$('#mariposa2').animate({'left':'2800px','top':'40px'}, 2000);
+					mari2FadeOut();
+					clearTimeout(mari2L1);
+				}, 300);
+			}
+			function mari2FadeOut() {
+				var mari2FO = setTimeout(function() {
+					$('#mariposa2').fadeOut(1000);
+					mari2StartAgain();
+					clearTimeout(mari2FO);
+				}, 500);
+			}
+			function mari2StartAgain() {
+				var mari2SA = setTimeout(function() {
+					$('#mariposa2').transition({ scale: 1.0 }, 10);
+					$('#mariposa2').animate({'left':'2940px','top':'140px'}, 10);
+					$('#mariposa2').transition({ rotate: '0deg' }, 10);
+					$('#mariposa2').fadeIn(1000);
+					mari2Top1();
+					clearTimeout(mari2SA);
+				}, 100);
+			}
+			/*fin mariposa2*/
+			
+			/*mariposa3*/
+			var mari3In = setTimeout(function() {
+				$('#mariposa3').fadeIn(1000, function(){ mari3Alas1(); });
+				mari3Top1();
+				clearTimeout(mari3In);
+			}, 2800);
+			function mari3Alas1() {
+				var mari3A1 = setTimeout(function() {
+					$('#mariposa3').css({'background-position':'-226px 0px'});
+					mari3Alas2();
+					clearTimeout(mari3A1);
+				}, 200);
+			}
+			function mari3Alas2() {
+				var mari3A2 = setTimeout(function() {
+					$('#mariposa3').css({'background-position':'0px 0px'});
+					mari3Alas1();
+					clearTimeout(mari3A2);
+				}, 200);
+			}
+			function mari3Top1() {
+				var mari3T1 = setTimeout(function() {
+					$('#mariposa3').animate({'left':'3900px','top':'70px'}, 2000);
+					mari3Bot1();
+					clearTimeout(mari3T1);
+				}, 300);
+			}
+			function mari3Bot1() {
+				var mari3B1 = setTimeout(function() {
+					$('#mariposa3').animate({'left':'3840px','top':'120px'}, 2000);
+					mari3Rota1();
+					clearTimeout(mari3B1);
+				}, 300);
+			}
+			function mari3Rota1() {
+				var mari3R1 = setTimeout(function() {
+					$('#mariposa3').animate({'left':'3860px'}, 1000);
+					$('#mariposa3').transition({ rotate: '-350deg' }, 2000);
+					mari3FadeOut();
+					clearTimeout(mari3R1);
+				}, 300);
+			}
+			function mari3FadeOut() {
+				var mari3FO = setTimeout(function() {
+					$('#mariposa3').fadeOut(1000);
+					mari3StartAgain();
+					clearTimeout(mari3FO);
+				}, 1000);
+			}
+			function mari3StartAgain() {
+				var mari3SA = setTimeout(function() {
+					$('#mariposa3').animate({'left':'3970px','top':'100px'}, 10);
+					$('#mariposa3').transition({ rotate: '0deg' }, 10);
+					$('#mariposa3').fadeIn(1000);
+					mari3Top1();
+					clearTimeout(mari3SA);
+				}, 4000);
+			}
+			/*fin mariposa3*/
+			
+			/*pleito*/
+			var pleitoIn = setTimeout(function() {
+				$('#pleito').fadeIn(1000, function(){ pleito1(); publicoIn(); });
+				clearTimeout(pleitoIn);
+			}, 3200);
+			function pleito1() {
+				var plei1 = setTimeout(function() {
+					$('#pleito').css({'background-position':'-165px 0px'});
+					pleito2();
+					clearTimeout(plei1);
+				}, 700);
+			}
+			function pleito2() {
+				var plei2 = setTimeout(function() {
+					$('#pleito').css({'background-position':'0px 0px'});
+					pleito1();
+					clearTimeout(plei2);
+				}, 700);
+			}
+			function publicoIn() {
+				var pubIn = setTimeout(function() {
+					$('#publico').fadeIn(500);
+					publico1();
+					clearTimeout(pubIn);
+				}, 50);
+			}
+			function publico1() {
+				var pub1 = setTimeout(function() {
+					$('#publico').animate({'left':'4876px'}, 30);
+					publico2();
+					clearTimeout(pub1);
+				}, 30);
+			}
+			function publico2() {
+				var pub2 = setTimeout(function() {
+					$('#publico').animate({'left':'4878px'}, 30);
+					publico1();
+					clearTimeout(pub2);
+				}, 30);
+			}
+			/*fin pleito*/
+			
+			/*vuelan*/
+			var vuela1In = setTimeout(function() {
+				$('#vuela1').fadeIn(1000, function(){ vuela2In(); });
+				//$('#vuela1').fadeIn(1000);
+				vuela1Bot1();
+				clearTimeout(vuela1In);
+			}, 3200);
+			function vuela2In() {
+				var vuela2In = setTimeout(function() {
+					$('#vuela2').fadeIn(1000);
+					vuela2Bot1();
+					clearTimeout(vuela2In);
+				}, 100);
+			}
+			function vuela1Bot1() {
+				var vue1B1 = setTimeout(function() {
+					$('#vuela1').animate({'left':'5830px','top':'94px'}, 1500);
+					$('#vuela1').transition({ scale: 0.7 }, 2000);
+					$('#vuela1').transition({ rotate: '-30deg' }, 2000);
+					$('#vuela1').animate({'left':'5800px','top':'114px'}, 1000);
+					vuela1Back1();
+					clearTimeout(vue1B1);
+				}, 1000);
+			}
+			function vuela1Back1() {
+				var vue1Ba1 = setTimeout(function() {
+					$('#vuela1').animate({'left':'5830px','top':'94px'}, 1500);
+					$('#vuela1').transition({ scale: 0.8 }, 2000);
+					$('#vuela1').transition({ rotate: '0deg' }, 2000);
+					//$('#vuela1').animate({'left':'5800px','top':'114px'}, 1000);
+					vuela1Bot1();
+					clearTimeout(vue1Ba1);
+				}, 3000);
+			}
+			function vuela2Bot1() {
+				var vue2B1 = setTimeout(function() {
+					$('#vuela2').animate({'top':'140px'}, 2000);
+					vuela2Top1();
+					clearTimeout(vue2B1);
+				}, 1000);
+			}
+			function vuela2Top1() {
+				var vue2T1 = setTimeout(function() {
+					$('#vuela2').animate({'top':'80px'}, 1500);
+					vuela2Bot1();
+					clearTimeout(vue2T1);
+				}, 500);
+			}
+			/*fin vuelan*/
+			
+			/*mariposas*/
+			var mari4In = setTimeout(function() {
+				$('#mariposa4').fadeIn(1000, function(){ maripo5In(); });
+				clearTimeout(mari4In);
+			}, 3500);
+			function maripo5In() {
+				var mari5In = setTimeout(function() {
+					$('#mariposa5').fadeIn(1000);
+					mari6In();
+					clearTimeout(mari5In);
+				}, 200);
+			}
+			function mari6In() {
+				var mari6In = setTimeout(function() {
+					$('#mariposa6').fadeIn(1000);
+					mari4Bot();
+					mari5Bot();
+					mari6Bot();
+					clearTimeout(mari6In);
+				}, 400);
+			}
+			function mari4Bot() {
+				var mari4B = setTimeout(function() {
+					$('#mariposa4').animate({'top':'200px'}, 1500);
+					mari4Top();
+					clearTimeout(mari4B);
+				}, 1000);
+			}
+			function mari5Bot() {
+				var mari5B = setTimeout(function() {
+					$('#mariposa5').animate({'top':'150px'}, 2000);
+					mari5Top();
+					clearTimeout(mari5B);
+				}, 1500);
+			}
+			function mari6Bot() {
+				var mari6B = setTimeout(function() {
+					$('#mariposa6').animate({'top':'350px'}, 2500);
+					mari6Top();
+					clearTimeout(mari6B);
+				}, 2000);
+			}
+			function mari4Top() {
+				var mari4T = setTimeout(function() {
+					$('#mariposa4').animate({'top':'160px'}, 2500);
+					mari4Bot();
+					clearTimeout(mari4T);
+				}, 500);
+			}
+			function mari5Top() {
+				var mari5T = setTimeout(function() {
+					$('#mariposa5').animate({'top':'90px'}, 2000);
+					mari5Bot();
+					clearTimeout(mari5T);
+				}, 1500);
+			}
+			function mari6Top() {
+				var mari6T = setTimeout(function() {
+					$('#mariposa6').animate({'top':'300px'}, 1500);
+					mari6Bot();
+					clearTimeout(mari6T);
+				}, 1500);
+			}
+			/*fin mariposas*/
+		break;
+		
+		case '05'://conquistador
+			$('head').append('<link href="css/cuento_05.css" rel="stylesheet" type="text/css" />');
+			
+			/*mesa*/
+			var mesaIn = setTimeout(function() {
+				$('#mesa').fadeIn(1000, function(){ mesa1(); });
+				clearTimeout(mesaIn);
+			}, 500);
+			function mesa1() {
+				var mesaFam1 = setTimeout(function() {
+					$('#mesa').css({'background-position':'-440px 0px'});
+					mesa2();
+					clearTimeout(mesaFam1);
+				}, 500);
+			}
+			function mesa2() {
+				var mesaFam2 = setTimeout(function() {
+					$('#mesa').css({'background-position':'0px 0px'});
+					mesa1();
+					clearTimeout(mesaFam2);
+				}, 500);
+			}
+			/*fin mesa*/
+			
+			/*barco*/
+			var barcoIn = setTimeout(function() {
+				$('#barco').fadeIn(1000, function(){ barco1(); });
+				clearTimeout(barcoIn);
+			}, 700);
+			function barco1() {
+				var bar1 = setTimeout(function() {
+					$("#barco").css({ transformOrigin: '0px 796px' });
+					$("#barco").transition({ rotate: '2deg' }, 4000);
+					barco2();
+					clearTimeout(bar1);
+				}, 500);
+			}
+			function barco2() {
+				var bar2 = setTimeout(function() {
+					$("#barco").transition({ rotate: '0deg' }, 5000);
+					barco1();
+					clearTimeout(bar2);
+				}, 500);
+			}
+			/*fin barco*/
+			
+			/*conqueror*/
+			var conqIn = setTimeout(function() {
+				$('#conqueror').fadeIn(1000, function(){ conquer1(); cangreIn(); });
+				clearTimeout(conqIn);
+			}, 1500);
+			function conquer1() {
+				var conq1 = setTimeout(function() {
+					$('#conqueror').css({'background-position':'-253px 0px'});
+					conquer2();
+					clearTimeout(conq1);
+				}, 500);
+			}
+			function conquer2() {
+				var conq2 = setTimeout(function() {
+					$('#conqueror').css({'background-position':'0px 0px'});
+					conquer1();
+					clearTimeout(conq2);
+				}, 500);
+			}
+			function cangreIn() {
+				var cangIn1 = setTimeout(function() {
+					$('#cangrejito').fadeIn(1000);
+					cangre1();
+					clearTimeout(cangIn1);
+				}, 500);
+			}
+			function cangre1() {
+				var cang1 = setTimeout(function() {
+					$('#cangrejito').css({'background-position':'-117px 0px'});
+					cangre2();
+					clearTimeout(cang1);
+				}, 200);
+			}
+			function cangre2() {
+				var cang2 = setTimeout(function() {
+					$('#cangrejito').css({'background-position':'0px 0px'});
+					cangre1();
+					clearTimeout(cang2);
+				}, 200);
+			}
+			/*fin conqueror*/
+			
+			/*gaviota*/
+			var gaviIn = setTimeout(function() {
+				$('#gaviota').fadeIn(1000, function(){ gaviota1(); });
+				clearTimeout(gaviIn);
+			}, 1500);
+			function gaviota1() {
+				var gavi1 = setTimeout(function() {
+					$('#gaviota').animate({'top':'150px'}, 1500);
+					gaviota2();
+					clearTimeout(gavi1);
+				}, 500);
+			}
+			function gaviota2() {
+				var gavi2 = setTimeout(function() {
+					$('#gaviota').animate({'top':'90px'}, 2000);
+					gaviota1();
+					clearTimeout(gavi2);
+				}, 500);
+			}
+			/*fin gaviota*/
+			
+			/*aborigen*/
+			var aboIn = setTimeout(function() {
+				$('#aborigen').fadeIn(1000, function(){ aborigen1(); });
+				clearTimeout(aboIn);
+			}, 2000);
+			function aborigen1() {
+				var abo1 = setTimeout(function() {
+					$('#aborigen').css({'background-position':'-258px 0px'});
+					aborigen2();
+					clearTimeout(abo1);
+				}, 1000);
+			}
+			function aborigen2() {
+				var abo2 = setTimeout(function() {
+					$('#aborigen').css({'background-position':'0px 0px'});
+					aborigen1();
+					clearTimeout(abo2);
+				}, 1000);
+			}
+			/*fin aborigen*/
+			
+			/*zorros*/
+			var zorsIn = setTimeout(function() {
+				$('#zorritos').fadeIn(1000, function(){ zorros1(); });
+				clearTimeout(zorsIn);
+			}, 2000);
+			function zorros1() {
+				var zors1 = setTimeout(function() {
+					$('#zorritos').css({'background-position':'-416px 0px'});
+					zorros2();
+					clearTimeout(zors1);
+				}, 1000);
+			}
+			function zorros2() {
+				var zors2 = setTimeout(function() {
+					$('#zorritos').css({'background-position':'0px 0px'});
+					zorros1();
+					clearTimeout(zors2);
+				}, 1000);
+			}
+			/*fin zorros*/
+		break;
+		
+		case '06'://tesoro
+			$('head').append('<link href="css/cuento_06.css" rel="stylesheet" type="text/css" />');
+			
+			/*nave*/
+			var naveIn = setTimeout(function() {
+				$('#nave').fadeIn(1000, function(){ nave1(); });
+				clearTimeout(naveIn);
+			}, 1000);
+			function nave1() {
+				var nav1 = setTimeout(function() {
+					$('#nave').animate({'top':'130px'}, 1500);
+					nave2();
+					clearTimeout(nav1);
+				}, 1000);
+			}
+			function nave2() {
+				var nav2 = setTimeout(function() {
+					$('#nave').animate({'top':'110px'}, 1500);
+					nave1();
+					clearTimeout(nav2);
+				}, 1000);
+			}
+			/*fin nave*/
+			
+			/*planeta*/
+			var planetaIn = setTimeout(function() {
+				$('#planeta').fadeIn(1000, function(){ planeta1(); });
+				clearTimeout(planetaIn);
+			}, 1500);
+			function planeta1() {
+				var plan1 = setTimeout(function() {
+					$('#planeta').transition({ rotate: '359deg' }, 15000);
+					planeta2();
+					clearTimeout(plan1);
+				}, 10);
+			}
+			function planeta2() {
+				var plan2 = setTimeout(function() {
+					$('#planeta').transition({ rotate: '0deg' }, 1);
+					planeta1();
+					clearTimeout(plan2);
+				}, 10);
+			}
+			/*fin planeta*/
+			
+			/*basura*/
+			var basuraIn = setTimeout(function() {
+				$('#basura').fadeIn(1000, function(){ basura1(); });
+				clearTimeout(basuraIn);
+			}, 1800);
+			function basura1() {
+				var bas1 = setTimeout(function() {
+					$('#basura').animate({'top':'140px'}, 3200);
+					basura2();
+					clearTimeout(bas1);
+				}, 100);
+			}
+			function basura2() {
+				var bas2 = setTimeout(function() {
+					$('#basura').animate({'top':'90px'}, 3600);
+					basura1();
+					clearTimeout(bas2);
+				}, 100);
+			}
+			/*fin basura*/
+			
+			/*elSurfer*/
+			var surfeadorIn = setTimeout(function() {
+				$('#surfo').fadeIn(1000, function(){ surfo1(); });
+				clearTimeout(surfeadorIn);
+			}, 2300);
+			function surfo1() {
+				var surfO1 = setTimeout(function() {
+					$('#surfo').animate({'top':'140px'}, 1000);
+					surfo2();
+					clearTimeout(surfO1);
+				}, 100);
+			}
+			function surfo2() {
+				var surfO2 = setTimeout(function() {
+					$('#surfo').animate({'top':'90px'}, 1000);
+					surfo1();
+					clearTimeout(surfO2);
+				}, 100);
+			}
+			var surfeadoraIn = setTimeout(function() {
+				$('#surfa').fadeIn(1000, function(){ surfa1(); });
+				clearTimeout(surfeadoraIn);
+			}, 2300);
+			function surfa1() {
+				var surfA1 = setTimeout(function() {
+					$('#surfa').animate({'top':'250px'}, 1000);
+					surfa2();
+					clearTimeout(surfA1);
+				}, 100);
+			}
+			function surfa2() {
+				var surfA2 = setTimeout(function() {
+					$('#surfa').animate({'top':'200px'}, 1000);
+					surfa1();
+					clearTimeout(surfA2);
+				}, 100);
+			}
+			/*fin elSurfer*/
+			
+			/*laSurfer*/
+			/*fin laSurfer*/
+		break;
+		
+	}//fin switch cuento
+	
+	/* modal dialogs */
+	//select all the a tag with name equal to modal
+	$('a[name=modal]').click(function(e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		//Get the A tag
+		var id = $(this).attr('href');
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(300);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(300); 
+	
+	});
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});			
+
+	$(window).resize(function () {
+	 
+ 		var box = $('#boxes .window');
+ 
+        //Get the screen height and width
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+		
+		//Set height and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+        //Get the window height and width
+        var winH = $(window).height();
+        var winW = $(window).width();
+
+        //Set the popup window to center
+        box.css('top',  winH/2 - box.height()/2);
+        box.css('left', winW/2 - box.width()/2);
+	 
+	});
+	/* fin modal dialogs */
+	
+}); // fin document ready
+
+</script>
+
+
+</head>
+<body>
+
+
+<div id="contenido">
+	
+	<div id="general">
+		
+		<div id="pantalla01" class="disblock pantallas floatNoneClearBoth marginAuto">
+			
+			<div class="disblock posAbsolute btnsTop">
+				<a class="disblock floatL alpha60hover bgNoRepTL tran100" id="btTopMorHome"  href="javascript:var proxPantalla = 'index.html'" onClick="transPage();"></a>
+				<a class="disblock floatL alpha60hover bgNoRepTL tran100" id="btTopMorAutor" href="#dialog6" name="modal"></a>
+                <!--falta probar Android browser, iPhone browser, Android webView y iPohne webView
+				<a class="disblock floatL alpha60hover bgNoRepTL tran100" id="btTopMorAudio" href="javascript:void(0)" onclick="playAudio();"></a>-->
+				<a class="disblock floatL alpha60hover bgNoRepTL tran100" id="btTopMorAudio" href="#dialog7" name="modal"></a>
+				<a class="disblock floatL alpha60hover bgNoRepTL tran100" id="btTopMorZoom"  href="#dialog8" name="modal"></a>
+			</div><!--/.btnsTop-->
+			
+			<div class="disblock posAbsolute instruSlide" id="instruSlide"></div>
+			
+			<div class="disblock posAbsolute left50" id="tituloCuento"></div>
+			
+			<div class="swiper-container swiper-car">
+				<div class="pagination-car"></div>
+				<div class="swiper-wrapper" id="swipers">
+					
+					<script type="text/javascript" language="javascript">
+						
+						switch(cuento) {
+							
+							case '01'://mi jardín
+								$("#swipers").append("<img class='swiper-slide' src='img/cuento_01/s01.png'> <img class='swiper-slide' src='img/cuento_01/s02.png'> <img class='swiper-slide' src='img/cuento_01/s03.png'> <img class='swiper-slide' src='img/cuento_01/s04.png'> <img class='swiper-slide' src='img/cuento_01/s05.png'> <img class='swiper-slide' src='img/cuento_01/s06.png'> <img class='swiper-slide' src='img/cuento_01/s07.png'> <div id='arana' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='capullo' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='marikita1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='notas1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='caracol' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='sombrero' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='cejas' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='marikita2' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='mariposa1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='flor1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='mariposa1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div>");
+								//$("#swipers").append("<div id='arana' class='displayNone posAbsolute bgNoRepTL'></div>");
+							break;
+							
+							case '02'://jairo
+								$("#swipers").append("<img class='swiper-slide' src='img/cuento_02/s01.png'> <img class='swiper-slide' src='img/cuento_02/s02.png'> <img class='swiper-slide' src='img/cuento_02/s03.png'> <img class='swiper-slide' src='img/cuento_02/s04.png'> <img class='swiper-slide' src='img/cuento_02/s05.png'> <div id='jairo1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='tortu1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='huevos' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='zorro' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='jairoTortu' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div>");
+							break;
+							
+							case '03'://musica
+								$("#swipers").append("<img class='swiper-slide' src='img/cuento_03/s01.png'> <img class='swiper-slide' src='img/cuento_03/s02.png'> <img class='swiper-slide' src='img/cuento_03/s03.png'> <img class='swiper-slide' src='img/cuento_03/s04.png'> <div id='bruja' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='magia1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='magia2' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='crow' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='buitre' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='zipper' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='cantor' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='notas2' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div>");
+							break;
+							
+							case '04'://mariposas
+								$("#swipers").append("<img class='swiper-slide' src='img/cuento_04/s01.png'> <img class='swiper-slide' src='img/cuento_04/s02.png'> <img class='swiper-slide' src='img/cuento_04/s03.png'> <img class='swiper-slide' src='img/cuento_04/s04.png'> <img class='swiper-slide' src='img/cuento_04/s05.png'> <img class='swiper-slide' src='img/cuento_04/s06.png'> <img class='swiper-slide' src='img/cuento_04/s07.png'> <img class='swiper-slide' src='img/cuento_04/s08.png'> <div id='mama' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='nico' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='caroGde' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='mariposa2' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='mariposa3' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='publico' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='pleito' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='vuela1' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='vuela2' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='mariposa4' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='mariposa5' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='mariposa6' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div>");
+							break;
+							
+							case '05'://conquistador
+								$("#swipers").append("<img class='swiper-slide' src='img/cuento_05/s01.png'> <img class='swiper-slide' src='img/cuento_05/s02.png'> <img class='swiper-slide' src='img/cuento_05/s03.png'> <img class='swiper-slide' src='img/cuento_05/s04.png'> <img class='swiper-slide' src='img/cuento_05/s05.png'> <img class='swiper-slide' src='img/cuento_05/s06.png'> <div id='mesa' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='barco' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='conqueror' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='cangrejito' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='gaviota' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='aborigen' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='zorritos' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div>");
+							break;
+							
+							case '06'://tesoro
+								$("#swipers").append("<img class='swiper-slide' src='img/cuento_06/s01.png'> <img class='swiper-slide' src='img/cuento_06/s02.png'> <img class='swiper-slide' src='img/cuento_06/s03.png'> <img class='swiper-slide' src='img/cuento_06/s04.png'> <img class='swiper-slide' src='img/cuento_06/s05.png'> <div id='nave' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='planeta' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='basura' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='surfo' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div> <div id='surfa' class='disNone posAbsolute tranBg tran100 bgNoRepTL'></div>");
+							break;
+							
+						}//fin switch
+					</script>
+                    
+				</div><!-- fin swiper-wrapper -->
+			</div><!-- fin swiper-container -->
+			
+		</div><!-- /#pantalla01 -->
+		
+	</div><!--/fin general-->
+	
+	<div id="boxes"><!-- modal -->
+    	
+        <div id="dialog6" class="window borRadius10"><!--autor-->
+			<script type="text/javascript" language="javascript">
+				
+				switch(cuento) {
+					
+					case '01'://mi jardín
+						$("#dialog6").append("<img class='disblock floatNoneClearBoth marginAuto' src='img/cuento_01/autor_s01.png'>");
+					break;
+					
+					case '02'://jairo
+						$("#dialog6").append("<img class='disblock floatNoneClearBoth marginAuto' src='img/cuento_02/autor_s02.png'>");
+					break;
+					
+					case '03'://musica
+						$("#dialog6").append("<img class='disblock floatNoneClearBoth marginAuto' src='img/cuento_03/autor_s03.png'>");
+					break;
+					
+					case '04'://mariposas
+						$("#dialog6").append("<img class='disblock floatNoneClearBoth marginAuto' src='img/cuento_04/autor_s04.png'>");
+					break;
+					
+					case '05'://conquistador
+						$("#dialog6").append("<img class='disblock floatNoneClearBoth marginAuto' src='img/cuento_05/autor_s05.png'>");
+					break;
+					
+					case '06'://tesoro
+						$("#dialog6").append("<img class='disblock floatNoneClearBoth marginAuto' src='img/cuento_06/autor_s06.png'>");
+					break;
+					
+				}//fin switch
+			</script>
+            
+			<a href="javascript:void(0)" class="close btCloseCredits"></a>
+            
+        </div><!--/#dialog6-->
+		
+		<div id="dialog7" class="window borRadius10"><!--audio-->
+			
+			<audio preload="auto" controls style="width:400px; margin:20px auto 0px auto;" id="playerCuento">
+				
+				<script type="text/javascript" language="javascript">
+					switch(cuento) {
+						
+						case '01'://mi jardin
+							//iOS y Safari no reconocen .ogg
+							if(isiPhone > -1) {
+								//alert('iphone 22');
+								$("#playerCuento").append('<source src="audio/intro.mp3" type="audio/mp3" />');
+							}
+							else if(isiPod > -1) {
+								//alert('ipod');
+								$("#playerCuento").append('<source src="audio/intro.mp3" type="audio/mp3" />');
+							}
+							else if(isiPad > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/intro.mp3" type="audio/mp3" />');
+							}
+							else if(isSafari > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/intro.mp3" type="audio/mp3" />');
+							}
+							else if (android > -1) {
+								//alert('android 16');//android webView necesita absolute url
+								$("#playerCuento").append('<source src="http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+							else {
+								//$("#playerCuento").append('<source src="audio/intro.ogg" type="audio/ogg" />');
+								$("#playerCuento").append('<source src="audio/intro.mp3" type="audio/mp3" />');//mientras se convierte a ogg
+							}
+						break;
+							
+						case '02'://jairo
+							//iOS y Safari no reconocen .ogg
+							if(isiPhone > -1) {
+								//alert('iphone 22');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPod > -1) {
+								//alert('ipod');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPad > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isSafari > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if (android > -1) {
+								//alert('android 16');//android webView necesita absolute url
+								$("#playerCuento").append('<source src="http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+							else {
+								$("#playerCuento").append('<source src="audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+						break;
+							
+						case '03'://musica
+							//iOS y Safari no reconocen .ogg
+							if(isiPhone > -1) {
+								//alert('iphone 22');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPod > -1) {
+								//alert('ipod');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPad > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isSafari > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if (android > -1) {
+								//alert('android 16');//android webView necesita absolute url
+								$("#playerCuento").append('<source src="http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+							else {
+								$("#playerCuento").append('<source src="audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+						break;
+						
+						case '04'://mariposas
+							//iOS y Safari no reconocen .ogg
+							if(isiPhone > -1) {
+								//alert('iphone 22');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPod > -1) {
+								//alert('ipod');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPad > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isSafari > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if (android > -1) {
+								//alert('android 16');//android webView necesita absolute url
+								$("#playerCuento").append('<source src="http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+							else {
+								$("#playerCuento").append('<source src="audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+						break;
+						
+						case '05'://conquistador
+							//iOS y Safari no reconocen .ogg
+							if(isiPhone > -1) {
+								//alert('iphone 22');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPod > -1) {
+								//alert('ipod');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPad > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isSafari > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if (android > -1) {
+								//alert('android 16');//android webView necesita absolute url
+								$("#playerCuento").append('<source src="http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+							else {
+								$("#playerCuento").append('<source src="audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+						break;
+						
+						case '06'://tesoro
+							//iOS y Safari no reconocen .ogg
+							if(isiPhone > -1) {
+								//alert('iphone 22');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPod > -1) {
+								//alert('ipod');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isiPad > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if(isSafari > -1) {
+								//alert('ipad');
+								$("#playerCuento").append('<source src="audio/cuentos/.mp3" type="audio/mp3" />');
+							}
+							else if (android > -1) {
+								//alert('android 16');//android webView necesita absolute url
+								$("#playerCuento").append('<source src="http://librosparatodoscr.com/miCuentoFantastico/2013/audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+							else {
+								$("#playerCuento").append('<source src="audio/cuentos/.ogg" type="audio/ogg" />');
+							}
+						break;
+						
+					}
+				</script>
+                    
+            	<!--Su navegador no soporta audio HTML5.-->
+			</audio>
+            
+            <a href="javascript:void(0)" class="close btCloseCredits"></a>
+            
+        </div><!--/#dialog7-->
+        
+		<div id="dialog8" class="window borRadius10"><!--zoom-->
+			<script src="js/cuentos.js" type="text/javascript"></script>
+			<a href="javascript:void(0)" class="close disblock posAbsolute" id="zoomOutBtn"></a>
+        </div><!--/#dialog8-->
+		
+		<!-- Mask to cover the whole screen -->
+		<div id="mask"></div>
+        
+	</div><!-- fin boxes -->
+
+</div><!-- fin contenido -->
+
+<div id="turnScreen"></div>
+
+<script language="Javascript">
+	document.oncontextmenu = function(){return false};
+	document.onselectstart = function(){return false};
+	//document.onkeydown = function(){return false};
+</script>
+
+</body>
+</html>
