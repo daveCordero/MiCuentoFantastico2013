@@ -222,22 +222,12 @@ $(window).bind('orientationchange resize', function(event) {
 	}
 });
 
-/*//$(document).on('click', 'a[target="_blank"]', function(ev) {
-$('#docPDF').on('click', 'a[target="_blank"]', function(ev) {
-	var url;
-	alert('.2.2.');
-	ev.preventDefault();
-	url = $(this).attr('href');
-	window.open(url, '_system');
-});*/
-
 function openGuia() {
 	var urlGuia;
 	event.preventDefault();
 	urlGuia = $('#enlaceGuia').attr('href');
 	window.open(url, '_system');
 }
-
 
 $(document).ready(function() {
 	
@@ -485,7 +475,24 @@ $(document).ready(function() {
 			<div id="txLdoc" class="disblock floatL">
 				Un material especialmente diseñado para ayudar al docente en la elaboración de historias o cuentos por parte de los estudiantes.
 				<br /><br />
-				Descargue la guía del docente en el <a href="http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf" id="enlaceGuia" onclick="openGuia();">pulsando aquí » </a>
+				
+                <script type="text/javascript">
+					if(isiPhone > -1) {
+						$("#txLdoc").append('Para descargar la guía del docente copie la siguiente dirección y péguela en su navegador web http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf');
+					}
+					else if(isiPod > -1) {
+						$("#txLdoc").append('Para descargar la guía del docente copie la siguiente dirección y péguela en su navegador web http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf');
+					}
+					else if(isiPad > -1) {
+						$("#txLdoc").append('Para descargar la guía del docente copie la siguiente dirección y péguela en su navegador web http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf');
+					}
+					else if (android > -1) {
+						$("#txLdoc").append('Para descargar la guía del docente copie la siguiente dirección y péguela en su navegador web http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf');
+					}
+					else {
+						$("#txLdoc").append('Descargue la guía del docente en el <a href="http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf">pulsando aquí » </a>');
+					}
+				</script>
 				<br /><br />
 			</div><!-- /#txLdoc -->
 			<a href="javascript:void(0)" class="close btCloseCredits"></a>
