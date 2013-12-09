@@ -198,8 +198,9 @@
 	margin:0px 15px 0px 0px;
 }
 #txLdoc {
-	/*background:#999;*/
-	width:390px;
+	/*background:#999;
+	width:390px;*/
+	width:620px;
 }
 
 .instruSlide {
