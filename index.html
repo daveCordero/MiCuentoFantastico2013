@@ -231,6 +231,13 @@ $('#docPDF').on('click', 'a[target="_blank"]', function(ev) {
 	window.open(url, '_system');
 });*/
 
+function openGuia() {
+	var urlGuia;
+	event.preventDefault();
+	urlGuia = $('#enlaceGuia').attr('href');
+	window.open(url, '_system');
+}
+
 
 $(document).ready(function() {
 	
@@ -478,7 +485,7 @@ $(document).ready(function() {
 			<div id="txLdoc" class="disblock floatL">
 				Un material especialmente diseñado para ayudar al docente en la elaboración de historias o cuentos por parte de los estudiantes.
 				<br /><br />
-				Descargue la guía del docente en el <a href="http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf">pulsando aquí » </a>
+				Descargue la guía del docente en el <a href="http://librosparatodoscr.com/miCuentoFantastico/2013/guia/guia.pdf" id="enlaceGuia" onclick="openGuia();">pulsando aquí » </a>
 				<br /><br />
 			</div><!-- /#txLdoc -->
 			<a href="javascript:void(0)" class="close btCloseCredits"></a>
