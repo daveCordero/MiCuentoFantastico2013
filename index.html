@@ -222,6 +222,15 @@ $(window).bind('orientationchange resize', function(event) {
 	}
 });
 
+//$(document).on('click', 'a[target="_blank"]', function(ev) {
+$('#docPDF').on('click', 'a[target="_blank"]', function(ev) {
+  var url;
+  alert('.2.2.');
+  ev.preventDefault();
+  url = $(this).attr('href');
+  window.open(url, '_system');
+});
+
 
 $(document).ready(function() {
 	
